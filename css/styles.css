@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'PT Mono', monospace;
+  position: relative;
 }
 
 .text-white {
@@ -9,15 +10,19 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Playfair Display', serif;
-
 }
+
 /* navbar */
-.navbar-brand h1{
-font-family: 'Permanent Marker', cursive;
-margin: 0;
+.navbar-default {
+  color:#ffffff;
+}
+.navbar-brand h1 {
+  font-family: 'Permanent Marker',cursive;
+  margin: 0;
+  font-size: 24px;
 }
 
-.navbar-brand: {
+.navbar-brand {
   padding: 10px;
 }
 
@@ -32,13 +37,23 @@ margin: 0;
   align-items: center;
 }
 
+/* menu section */
+.menu-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tab-pane {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /* reservation section */
 .reservation-section {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #eeeeee;
-
 }
+
 /* Small Screens */
 @media only screen and (min-width : 768px) {
 }
